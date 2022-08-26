@@ -1,0 +1,24 @@
+.title {color: darkblue;
+        font-size: 40px
+}
+
+.subtitle {color: darkcyan;
+            font-size: 20px;
+}
+
+.content {color: darkslategrey;
+            font-size: 20
+            px;
+}
+
+#imagechicken {width: 400px;
+                height: 300px;
+}
+#imagemeat {width: 400px;
+                height: 300px;
+}
+#imagetuna {width: 400px;
+                height: 300px;
+}
+
+#principal {background-color: lightskyblue;}
