@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* /////NAVBAR///// */
+
+header {
+    width: 100vw;
+    height: 15vh;
+}
+
+a {
+   text-decoration: none;
+   color: rgb(35, 66, 35);
+}
+
+.nav {
+    background-color: darkgreen;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    width: auto;
+    height: 80px;
+    align-self: center;
+    margin: 0 20px;
+}
+
+.nav-text   {
+    font-size: 2rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav__content {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: yellowgreen;
+}
+
+/* MAIN CONTENT */
+
+/* sidebar */
+
+.main-box {
+    background-color: lightskyblue;
+    height: fit-content;
+    display: flex;
+
+
+}
+
+ /* CHARACTERS BOXES ///// */
+
+.sidebar-box {
+    background-color: beige;
+    width: fit-content;
+    
+
+}
+
+.onepiece-box {
+    margin: 20px 60px;
+    padding: 100px 140px;
+    width: 20px;
+    height: 20px;
+    background-color: brown;
+    border-radius: 20px;
+}
+
+/* DESCRIPTION BOX ///// */
+
+.box-1{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    font-size: 2rem;
+    text-align: center;
+    padding: 200px 150px;
+    margin: 0% 60px;
+    background-color: aqua;
+    border-radius: 50px;
+}
+
+/* FOOTER/////// */
+
+.footer {
+    width: 100vw;
+    height: 15vh;
+    background-color: yellow;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    font-size: 2rem;
+    text-align: center;
+
+}

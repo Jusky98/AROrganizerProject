@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.parent {
+    display: block;
+    border: 2px solid;  
+    height: 900px;
+    background-color: beige;
+    
+
+}
+
+.box {
+    
+}
+
+.box__big {
+    background-color: rgb(194, 172, 172);
+    width: 800px;
+    height: 400px;
+    position: relative;
+    left: 550px;
+    top: 30%;
+    border: 3px gray solid;
+    max-width: 800px;
+    
+}
+
+.box__small {
+    background-color: rgb(163, 53, 53);
+    border: 2px black solid;    
+    position: absolute;
+    left: 30%;
+    bottom: 350px;
+    width: 300px;
+    height: 100px;
+    border-radius: 10%;
+    
+}
+
+.box__title-text {
+    
+    text-align: center;
+    font-size: 3rem;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 27%;
+}
+
+
+.box__description-text {
+    
+    text-align: center;
+    font-size: 2.5rem;
+    position: absolute;
+    left: 41%;
+    top: 10%;
+}
+
+.yoda   {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 260px;
+    top: 90px;
+}
